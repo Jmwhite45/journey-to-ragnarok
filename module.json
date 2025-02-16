@@ -1,0 +1,9 @@
+{
+  "id": "journey-to-ragnarok",
+  "title": "Journey To Ragnarok",
+  "version": "0.0.1",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  }
+}
