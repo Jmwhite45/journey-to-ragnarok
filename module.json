@@ -148,5 +148,9 @@
       "path": "lang/en.json",
       "flags": {}
     }
-  ]
+  ],
+  "url": "https://github.com/Jmwhite45/journey-to-ragnarok",
+  "download": "https://github.com/Jmwhite45/journey-to-ragnarok/archive/refs/tags/Prototype.zip",
+  "manifest": "https://github.com/Jmwhite45/journey-to-ragnarok/releases/latest/download/module.json",
+  "bugs":"https://github.com/Jmwhite45/journey-to-ragnarok/issues"
 }
