@@ -2,8 +2,151 @@
   "id": "journey-to-ragnarok",
   "title": "Journey To Ragnarok",
   "version": "0.0.1",
+  "esmodules": [
+    "journey-to-ragnarok.js"
+  ],
   "compatibility": {
     "minimum": "11",
     "verified": "11"
-  }
+  },
+  "packFolders": [
+    {
+      "name": "Journey To Ragnarok",
+      "packs": [
+        "jtr-rules",
+        "journey-to-ragnarok-features",
+        "journey-to-ragnarok-items",
+        "journey-to-ragnarok-journal",
+        "jtr-subclasses",
+        "jtr-backgrounds",
+        "jtr-races",
+        "jtr-scenes",
+        "jtr-npcs",
+        "jtr-rolltables",
+        "jtr-macro"
+      ],
+      "color": "#5c8491",
+      "folders": []
+    }
+  ],
+  "packs": [
+    {
+      "name": "journey-to-ragnarok-features",
+      "label": "JtR: Features",
+      "path": "packs/journey-to-ragnarok-features",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "journey-to-ragnarok-items",
+      "label": "JtR: Items",
+      "path": "packs/journey-to-ragnarok-items",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "jtr-rules",
+      "label": "JtR: Rules",
+      "path": "packs/jtr-rules",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e"
+    },
+    {
+      "name": "jtr-subclasses",
+      "label": "JtR: subclasses",
+      "path": "packs/jtr-subclasses",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e"
+    },
+    {
+      "name": "jtr-backgrounds",
+      "label": "JtR: Backgrounds",
+      "path": "packs/jtr-backgrounds",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e"
+    },
+    {
+      "name": "jtr-races",
+      "label": "JtR: Races",
+      "path": "packs/jtr-races",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e"
+    },
+    {
+      "name": "jtr-scenes",
+      "label": "JtR: Scenes",
+      "path": "packs/jtr-scenes",
+      "type": "Scene",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e"
+    },
+    {
+      "name": "jtr-npcs",
+      "label": "JtR: NPCs",
+      "path": "packs/jtr-npcs",
+      "type": "Actor",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e"
+    },
+    {
+      "name": "jtr-rolltables",
+      "label": "JtR: Rolltables",
+      "path": "packs/jtr-rolltables",
+      "type": "RollTable",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e"
+    },
+    {
+      "name": "jtr-macro",
+      "label": "JtR: Macro",
+      "path": "packs/jtr-macro",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e"
+    }
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json",
+      "flags": {}
+    }
+  ]
 }

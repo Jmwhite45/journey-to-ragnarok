@@ -1,0 +1,30 @@
+<div class="tab" data-group="primary" data-tab="rune">
+    {{!-- <div style = "height: 500px"> --}}
+    <div style="display: inline-block; vertical-align:top">
+        <img class="imgColumn" id="RuneStone" style = "float: right; border: 0px; vertical-align:middle" height="200px" src="{{jtrRuneImg}}">
+        <h1>Rune - {{jtrRuneName}}</h1>
+        {{#if editable}}
+        <select name="Rune" id="Rune" value=4>
+            {{selectOptions jtrRunes selected=jtrRune}}
+        </select>
+        {{/if}}
+        <br>
+        <div id="runeContent">
+            {{{jtrRuneText}}}
+        </div>
+    </div>
+    <p style="margin: 10px"><p>
+    <div style="display: inline-block; vertical-align:Top">
+        <img id="ClanFlag" style = "float: right; border: 0px" height="360px" src="{{jtrClanImg}}">
+        <h1>Clan - {{jtrClanName}}</h1>
+        {{#if editable}}
+        <select class="clan" name="Clan" id="Clan">
+            {{selectOptions jtrClans selected=jtrClan}}
+        </select>
+        {{/if}}
+        <div id="clanContent">
+            {{{jtrClanText}}}
+        </div>
+    </div>
+
+</div>
