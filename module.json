@@ -6,8 +6,8 @@
     "journey-to-ragnarok.js"
   ],
   "compatibility": {
-    "minimum": "11",
-    "verified": "11"
+    "minimum": "12",
+    "verified": "12"
   },
   "packFolders": [
     {

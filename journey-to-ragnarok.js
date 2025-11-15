@@ -21,14 +21,29 @@ const DEFAULTFLAG = {
   runeText: ""
 }
 
-class RuneJournalPageData extends foundry.abstract.TypeDataModel {
+ class RuneJournalPageData extends foundry.abstract.TypeDataModel {
 }
 
 class JournalRunePageSheet extends JournalPageSheet{
   get template() {
-    return `systems/dnd5e/templates/journal/page-rune-${this.isEditable ? "edit" : "view"}.hbs`;
+    return `modules/your-module/templates/page-template.html`;
   }
 
+  getData(options={}) {
+    let context = super.getData(options)
+    // Stick any data your Handlebars template needs into `context` here
+    return context
+  }
+}
+
+class MyJournalTextPageSheet extends JournalPageSheet{
+  get template(){
+    return super.template
+  }
+
+  getData(options){
+    return super.getData(options)
+  }
 }
 
 function mingrateActor(actor){
@@ -187,9 +202,13 @@ Hooks.once("init", function(){
   unshaped.configLoad()
 
   //Load Rune Journal page
-  CONFIG.JournalEntryPage.typeLabels.rune = "TYPES.JournalEntryPage.rune"
-  CONFIG.JournalEntryPage.sheetClasses.rune = JournalRunePageSheet
-  CONFIG.JournalEntryPage.dataModels = RuneJournalPageData
+  //CONFIG.JournalEntryPage.typeLabels.rune = "TYPES.JournalEntryPage.rune"
+  //CONFIG.JournalEntryPage.sheetClasses.rune = JournalRunePageSheet
+  //CONFIG.JournalEntryPage.dataModels = RuneJournalPageData 
+  DocumentSheetConfig.registerSheet(JournalEntryPage, MODULEID, MyJournalTextPageSheet, {
+    label: "DND5E.RuneJournal",
+    types: ["class", "subclass"]
+  });
 })
 
 Hooks.on("dnd5e.computeUnshapedProgression", unshaped.computeUnshapedProgression);

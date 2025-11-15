@@ -1,5 +1,6 @@
 {
     "DND5E.SpellLevelUnshaped": "Way of the Trickster Slot [Level {level}] ({n} Slots)",
+    "DND5E.RuneJournal": "Rune Text",
 
     "TYPES.JournalEntryPage.rune": "rune"
 }
