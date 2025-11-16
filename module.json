@@ -1,7 +1,7 @@
 {
   "id": "journey-to-ragnarok",
   "title": "Journey To Ragnarok",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "esmodules": [
     "journey-to-ragnarok.js"
   ],
@@ -23,7 +23,8 @@
         "jtr-scenes",
         "jtr-npcs",
         "jtr-rolltables",
-        "jtr-macro"
+        "jtr-macro",
+        "jtr-classes"
       ],
       "color": "#5c8491",
       "folders": []
@@ -57,88 +58,99 @@
       "label": "JtR: Rules",
       "path": "packs/jtr-rules",
       "type": "JournalEntry",
+      "system": "dnd5e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "dnd5e"
+      }
     },
     {
       "name": "jtr-subclasses",
       "label": "JtR: subclasses",
       "path": "packs/jtr-subclasses",
       "type": "Item",
+      "system": "dnd5e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "dnd5e"
+      }
     },
     {
       "name": "jtr-backgrounds",
       "label": "JtR: Backgrounds",
       "path": "packs/jtr-backgrounds",
       "type": "Item",
+      "system": "dnd5e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "dnd5e"
+      }
     },
     {
       "name": "jtr-races",
       "label": "JtR: Races",
       "path": "packs/jtr-races",
       "type": "Item",
+      "system": "dnd5e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "dnd5e"
+      }
     },
     {
       "name": "jtr-scenes",
       "label": "JtR: Scenes",
       "path": "packs/jtr-scenes",
       "type": "Scene",
+      "system": "dnd5e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "dnd5e"
+      }
     },
     {
       "name": "jtr-npcs",
       "label": "JtR: NPCs",
       "path": "packs/jtr-npcs",
       "type": "Actor",
+      "system": "dnd5e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "dnd5e"
+      }
     },
     {
       "name": "jtr-rolltables",
       "label": "JtR: Rolltables",
       "path": "packs/jtr-rolltables",
       "type": "RollTable",
+      "system": "dnd5e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "dnd5e"
+      }
     },
     {
       "name": "jtr-macro",
       "label": "JtR: Macro",
       "path": "packs/jtr-macro",
-      "type": "JournalEntry",
+      "type": "Macro",
+      "system": "dnd5e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "dnd5e"
+      }
+    },
+    {
+      "name": "jtr-classes",
+      "label": "JtR: Classes",
+      "path": "packs/jtr-classes",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     }
   ],
   "languages": [
@@ -152,5 +164,14 @@
   "url": "https://github.com/Jmwhite45/journey-to-ragnarok",
   "download": "https://github.com/Jmwhite45/journey-to-ragnarok/archive/refs/tags/Prototype.zip",
   "manifest": "https://github.com/Jmwhite45/journey-to-ragnarok/releases/latest/download/module.json",
-  "bugs":"https://github.com/Jmwhite45/journey-to-ragnarok/issues"
+  "bugs": "https://github.com/Jmwhite45/journey-to-ragnarok/issues",
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  }
 }
