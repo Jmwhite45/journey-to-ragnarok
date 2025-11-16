@@ -1,7 +1,7 @@
 {
   "id": "journey-to-ragnarok",
   "title": "Journey To Ragnarok",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "esmodules": [
     "journey-to-ragnarok.js"
   ],
