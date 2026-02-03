@@ -1,13 +1,13 @@
 {
   "id": "journey-to-ragnarok",
   "title": "Journey To Ragnarok",
-  "version": "0.2.00",
+  "version": "0.2.01",
   "esmodules": [
     "journey-to-ragnarok.js"
   ],
   "compatibility": {
     "minimum": "12",
-    "verified": "12"
+    "verified": "13"
   },
   "packFolders": [
     {
@@ -162,7 +162,7 @@
     }
   ],
   "url": "https://github.com/Jmwhite45/journey-to-ragnarok",
-  "download": "https://github.com/Jmwhite45/journey-to-ragnarok/archive/refs/tags/V0.2.zip",
+  "download": "https://github.com/Jmwhite45/journey-to-ragnarok/archive/refs/tags/V0.2.01.zip",
   "manifest": "https://github.com/Jmwhite45/journey-to-ragnarok/releases/latest/download/module.json",
   "bugs": "https://github.com/Jmwhite45/journey-to-ragnarok/issues",
   "relationships": {
@@ -172,6 +172,15 @@
         "type": "system",
         "compatibility": {}
       }
+    ],
+    "recommends": [
+      {
+        "id": "levels",
+        "type": "module",
+        "compatibility": {}
+      }
     ]
-  }
+  },
+  "description": "",
+  "flags": {}
 }
