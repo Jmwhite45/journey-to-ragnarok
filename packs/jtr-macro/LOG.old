@@ -1,7 +1,15 @@
-2025/11/15-20:59:55.724 4d40 Recovering log #78
-2025/11/15-20:59:55.738 4d40 Delete type=0 #78
-2025/11/15-20:59:55.739 4d40 Delete type=3 #76
-2025/11/15-21:03:18.091 64c Level-0 table #83: started
-2025/11/15-21:03:18.098 64c Level-0 table #83: 10602 bytes OK
-2025/11/15-21:03:18.104 64c Delete type=0 #81
-2025/11/15-21:03:18.114 64c Manual compaction at level-0 from '!folders!AGcET9ruzpMPJvKN' @ 72057594037927935 : 1 .. '!macros!zglPReFIGO7FnpWz' @ 0 : 0; will stop at (end)
+2026/02/02-19:31:56.735 7b18 Recovering log #85
+2026/02/02-19:31:56.750 7b18 Delete type=0 #85
+2026/02/02-19:31:56.750 7b18 Delete type=3 #84
+2026/02/02-19:47:45.840 4ca4 Level-0 table #89: started
+2026/02/02-19:47:45.848 4ca4 Level-0 table #89: 10501 bytes OK
+2026/02/02-19:47:45.854 4ca4 Delete type=0 #87
+2026/02/02-19:47:45.870 4ca4 Manual compaction at level-0 from '!folders!AGcET9ruzpMPJvKN' @ 72057594037927935 : 1 .. '!macros!zglPReFIGO7FnpWz' @ 0 : 0; will stop at (end)
+2026/02/02-19:47:45.893 4ca4 Manual compaction at level-1 from '!folders!AGcET9ruzpMPJvKN' @ 72057594037927935 : 1 .. '!macros!zglPReFIGO7FnpWz' @ 0 : 0; will stop at '!macros!zglPReFIGO7FnpWz' @ 120 : 1
+2026/02/02-19:47:45.893 4ca4 Compacting 1@1 + 1@2 files
+2026/02/02-19:47:45.903 4ca4 Generated table #90@1: 60 keys, 10576 bytes
+2026/02/02-19:47:45.903 4ca4 Compacted 1@1 + 1@2 files => 10576 bytes
+2026/02/02-19:47:45.908 4ca4 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/02/02-19:47:45.908 4ca4 Delete type=2 #83
+2026/02/02-19:47:45.908 4ca4 Delete type=2 #89
+2026/02/02-19:47:45.926 4ca4 Manual compaction at level-1 from '!macros!zglPReFIGO7FnpWz' @ 120 : 1 .. '!macros!zglPReFIGO7FnpWz' @ 0 : 0; will stop at (end)

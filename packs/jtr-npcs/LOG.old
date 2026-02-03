@@ -1,8 +1,17 @@
-2025/11/15-20:59:55.669 4d40 Recovering log #82
-2025/11/15-20:59:55.683 4d40 Delete type=0 #82
-2025/11/15-20:59:55.684 4d40 Delete type=3 #80
-2025/11/15-21:03:18.067 64c Level-0 table #87: started
-2025/11/15-21:03:18.067 64c Level-0 table #87: 0 bytes OK
-2025/11/15-21:03:18.072 64c Delete type=0 #85
-2025/11/15-21:03:18.078 64c Manual compaction at level-0 from '!actors!0VdmdzPHOCDHiO8S' @ 72057594037927935 : 1 .. '!folders!zOlnGDgERKmbb7e3' @ 0 : 0; will stop at (end)
-2025/11/15-21:03:18.078 64c Manual compaction at level-1 from '!actors!0VdmdzPHOCDHiO8S' @ 72057594037927935 : 1 .. '!folders!zOlnGDgERKmbb7e3' @ 0 : 0; will stop at (end)
+2026/02/02-19:31:56.641 28a4 Recovering log #89
+2026/02/02-19:31:56.657 28a4 Delete type=0 #89
+2026/02/02-19:31:56.657 28a4 Delete type=3 #88
+2026/02/02-19:47:45.648 4ca4 Level-0 table #93: started
+2026/02/02-19:47:45.691 4ca4 Level-0 table #93: 2315844 bytes OK
+2026/02/02-19:47:45.697 4ca4 Delete type=0 #91
+2026/02/02-19:47:45.744 4ca4 Manual compaction at level-0 from '!actors!0VdmdzPHOCDHiO8S' @ 72057594037927935 : 1 .. '!folders!zOlnGDgERKmbb7e3' @ 0 : 0; will stop at (end)
+2026/02/02-19:47:45.758 4ca4 Manual compaction at level-1 from '!actors!0VdmdzPHOCDHiO8S' @ 72057594037927935 : 1 .. '!folders!zOlnGDgERKmbb7e3' @ 0 : 0; will stop at '!actors.items.effects!ANuOymTLpWzODcOR.dHtItyGBAjHNVs9w.BbMOmyVVhccqvqlP' @ 2115 : 1
+2026/02/02-19:47:45.758 4ca4 Compacting 1@1 + 2@2 files
+2026/02/02-19:47:45.806 4ca4 Generated table #94@1: 1648 keys, 2126054 bytes
+2026/02/02-19:47:45.820 4ca4 Generated table #95@1: 203 keys, 192281 bytes
+2026/02/02-19:47:45.820 4ca4 Compacted 1@1 + 2@2 files => 2318335 bytes
+2026/02/02-19:47:45.822 4ca4 compacted to: files[ 0 0 2 0 0 0 0 ]
+2026/02/02-19:47:45.823 4ca4 Delete type=2 #78
+2026/02/02-19:47:45.823 4ca4 Delete type=2 #79
+2026/02/02-19:47:45.824 4ca4 Delete type=2 #93
+2026/02/02-19:47:45.854 4ca4 Manual compaction at level-1 from '!actors.items.effects!ANuOymTLpWzODcOR.dHtItyGBAjHNVs9w.BbMOmyVVhccqvqlP' @ 2115 : 1 .. '!folders!zOlnGDgERKmbb7e3' @ 0 : 0; will stop at (end)
