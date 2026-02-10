@@ -78,7 +78,8 @@ export function recreateMusLocs()
 var MusLocs = []
 
 game.scenes.getName("Muspellsheimr").tiles.forEach(x=>{
-    var zone = x.texture.src.replace("worlds/jtr/DM%20Data/World%20Maps/Muspellsheimr/Tiles/Zone","").replace(".png","") 
+    var zone = x.texture.src.replace("modules/journey-to-ragnarok/Images/World%20Maps/Muspellsheimr/Tiles/Zone","").replace(".png","") 
+    console.log("[DEBUG] ",zone, x.texture.src)
     MusLocs[zone] = {
     x: x.x, 
     y: x.y, 

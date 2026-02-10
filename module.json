@@ -1,7 +1,7 @@
 {
   "id": "journey-to-ragnarok",
   "title": "Journey To Ragnarok",
-  "version": "0.2.01",
+  "version": "0.2.02",
   "esmodules": [
     "journey-to-ragnarok.js"
   ],
@@ -162,7 +162,7 @@
     }
   ],
   "url": "https://github.com/Jmwhite45/journey-to-ragnarok",
-  "download": "https://github.com/Jmwhite45/journey-to-ragnarok/archive/refs/tags/V0.2.01.zip",
+  "download": "https://github.com/Jmwhite45/journey-to-ragnarok/archive/refs/tags/V0.2.02.zip",
   "manifest": "https://github.com/Jmwhite45/journey-to-ragnarok/releases/latest/download/module.json",
   "bugs": "https://github.com/Jmwhite45/journey-to-ragnarok/issues",
   "relationships": {
